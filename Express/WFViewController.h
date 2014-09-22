@@ -10,4 +10,9 @@
 
 @interface WFViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
+
+- (IBAction)showAlert:(id)sender;
+- (void)loadWebPage:(NSString*)page;
+
 @end

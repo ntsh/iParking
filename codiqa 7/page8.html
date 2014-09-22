@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Receipt | Express</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link href="css/codiqa.ext.min.css" rel="stylesheet">
+  <link href="css/jquery.mobile-1.3.1.min.css" rel="stylesheet">
+
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.mobile-1.3.1.min.js"></script>
+  <script src="js/codiqa.ext.min.js"></script>
+  <script src="js/express.js"></script>
+</head>
+<body>
+  <div data-role="page" data-control-title="Receipt" id="page8">
+      <div data-role="panel" id="panel17" data-position="left" data-display="overlay" data-theme="a">
+          <ul data-role="listview" data-divider-theme="d" data-inset="false">
+              <li data-role="list-divider" role="heading">
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="page3.html" data-transition="slide">
+                      Activity
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="page5.html" data-transition="slide">
+                      Wallet
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-role="list-divider" role="heading">
+                  Help &amp; Support
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Documentation
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Support
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel13" data-position="left" data-display="overlay" data-theme="a">
+          <ul data-role="listview" data-divider-theme="d" data-inset="false">
+              <li data-role="list-divider" role="heading">
+              </li>
+              <li data-theme="h">
+                  <a href="page3.html" data-transition="slide">
+                      Activity
+                  </a>
+              </li>
+              <li data-theme="h">
+                  <a href="page5.html" data-transition="slide">
+                      Wallet
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-role="list-divider" role="heading">
+                  Help &amp; Support
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Documentation
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Support
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel14" data-position="left" data-display="overlay" data-theme="a">
+          <ul data-role="listview" data-divider-theme="d" data-inset="false">
+              <li data-role="list-divider" role="heading">
+              </li>
+              <li data-theme="h">
+                  <a href="index.html" data-transition="slide">
+                      Activity
+                  </a>
+              </li>
+              <li data-theme="h">
+                  <a href="page5.html" data-transition="slide">
+                      Wallet
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-role="list-divider" role="heading">
+                  Help &amp; Support
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Documentation
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Support
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel15" data-position="left" data-display="overlay" data-theme="a">
+          <ul data-role="listview" data-divider-theme="d" data-inset="false">
+              <li data-role="list-divider" role="heading">
+              </li>
+              <li data-theme="h">
+                  <a href="index.html" data-transition="slide">
+                      Activity
+                  </a>
+              </li>
+              <li data-theme="h">
+                  <a href="index.html" data-transition="slide">
+                      Wallet
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-role="list-divider" role="heading">
+                  Help &amp; Support
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Documentation
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Support
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel16" data-position="left" data-display="overlay" data-theme="a">
+          <ul data-role="listview" data-divider-theme="d" data-inset="false">
+              <li data-role="list-divider" role="heading">
+              </li>
+              <li data-theme="h">
+                  <a href="index.html" data-transition="slide">
+                      Activity
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Features
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-role="list-divider" role="heading">
+                  Help &amp; Support
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Documentation
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+              <li data-theme="a">
+                  <a href="index.html" data-transition="slide">
+                      Support
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="b" data-role="header" data-position="fixed">
+          <h2>
+              Receipt
+          </h2>
+          <a data-controltype="panelbutton" data-role="button" data-inline="false" href="#panel17" data-icon="bars" data-iconpos="notext">
+          </a>
+      </div>
+      <div data-role="content">
+          <div data-controltype="textblock">
+              <b>
+                  Activity Details
+              </b>
+          </div>
+          <hr style="height:3px; background-color:#ccc; border:0; margin-top:12px; margin-bottom:12px;"/>
+          <div data-controltype="htmlblock">
+              <style>
+                  #receipt { margin: 0 auto; margin-bottom: 5px; } #receipt thead { cursor:
+                  pointer; background: #c9dff0; } #receipt thead tr th { font-weight: bold;
+                  padding: 12px 30px; padding-left: 42px; } #receipt thead tr th span { padding-right:
+                  20px; background-repeat: no-repeat; background-position: 100% 100%; } #receipt
+                  thead tr th.headerSortUp, #keywords thead tr th.headerSortDown { background:
+                  #acc8dd; } #receipt thead tr th.headerSortUp span { background-image: url('up-arrow.png');
+                  } #receipt thead tr th.headerSortDown span { background-image: url('down-arrow.png');
+                  } #receipt tbody tr td { text-align: left; padding: 5px 5px; } #receipt
+                  tbody tr td.lalign { text-align: left; }
+              </style>
+              <table id="receipt" cellspacing="0" cellpadding="0" style="width:100%">
+                  <tbody>
+                      <tr>
+                          <td>
+                              Date
+                          </td>
+                          <td>
+                          </td>
+                          <td>
+                              21/09/2014 00:29:21
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              Status
+                          </td>
+                          <td>
+                          </td>
+                          <td style="color:green">
+                              Completed
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              Amount
+                          </td>
+                          <td>
+                          </td>
+                          <td>
+                              -£10:00
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              Type
+                          </td>
+                          <td>
+                          </td>
+                          <td>
+                              Other
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              Transaction ID
+                          </td>
+                          <td>
+                          </td>
+                          <td>
+                              7W740898B101
+                          </td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+          <hr style="height:3px; background-color:#ccc; border:0; margin-top:12px; margin-bottom:12px;"/>
+          <div data-controltype="htmlblock">
+              <table style="width:100%">
+                  <tbody>
+                      <tr>
+                          <td>
+                              Send To
+                          </td>
+                          <td>
+                          </td>
+                          <td>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              Mr John R Sample
+                          </td>
+                          <td>
+                          </td>
+                          <td>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              28 Express Road
+                          </td>
+                          <td>
+                          </td>
+                          <td>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              London
+                          </td>
+                          <td>
+                          </td>
+                          <td>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              E8 5RE
+                          </td>
+                          <td>
+                          </td>
+                          <td>
+                          </td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+          <ul data-role="listview" data-divider-theme="" data-inset="true">
+              <li data-theme="c">
+                  <a href="page3.html" data-transition="slide">
+                      OK
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</body>
+</html>

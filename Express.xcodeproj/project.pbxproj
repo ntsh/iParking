@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B168E3D719CEE6BB0017A328 /* codiqa 7 in Resources */ = {isa = PBXBuildFile; fileRef = B168E3D619CEE6BB0017A328 /* codiqa 7 */; };
 		B1C0184F19CDE9A400021BE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C0184E19CDE9A400021BE2 /* Foundation.framework */; };
 		B1C0185119CDE9A400021BE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C0185019CDE9A400021BE2 /* CoreGraphics.framework */; };
 		B1C0185319CDE9A400021BE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C0185219CDE9A400021BE2 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B168E3D619CEE6BB0017A328 /* codiqa 7 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "codiqa 7"; sourceTree = "<group>"; };
 		B1C0184B19CDE9A400021BE2 /* Express.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Express.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C0184E19CDE9A400021BE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B1C0185019CDE9A400021BE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +84,7 @@
 		B1C0184219CDE9A400021BE2 = {
 			isa = PBXGroup;
 			children = (
+				B168E3D619CEE6BB0017A328 /* codiqa 7 */,
 				B1C0185419CDE9A400021BE2 /* Express */,
 				B1C0187319CDE9A500021BE2 /* ExpressTests */,
 				B1C0184D19CDE9A400021BE2 /* Frameworks */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B168E3D719CEE6BB0017A328 /* codiqa 7 in Resources */,
 				B1C0186719CDE9A400021BE2 /* Images.xcassets in Resources */,
 				B1C0185919CDE9A400021BE2 /* InfoPlist.strings in Resources */,
 				B1C0186219CDE9A400021BE2 /* Main.storyboard in Resources */,
@@ -334,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -366,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -377,9 +381,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Express/Express-Prefix.pch";
 				INFOPLIST_FILE = "Express/Express-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,9 +396,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Express/Express-Prefix.pch";
 				INFOPLIST_FILE = "Express/Express-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +465,7 @@
 				B1C0187F19CDE9A500021BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1C0188019CDE9A500021BE2 /* Build configuration list for PBXNativeTarget "ExpressTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +474,7 @@
 				B1C0188219CDE9A500021BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

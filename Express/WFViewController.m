@@ -17,7 +17,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"View Did Load");
+        //self.webView = [[UIWebView alloc] init];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [self loadWebPage:@"index"];
+}
+
+- (void)loadWebPage:(NSString*)page
+{
+    NSLog(@"Loading %@", page);
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:page ofType:@"html" inDirectory:@"codiqa 7"]];
+    NSURLRequest* request = [NSURLRequest requestWithURL:url];
+    [self.webView loadRequest:request];
+    NSLog(@"Webview loaded");
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +41,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)showAlert:(id)sender {
+    NSLog(@"Show Alert");
+    [self.webView stringByEvaluatingJavaScriptFromString:@"showAlert()"];
+}
 @end
